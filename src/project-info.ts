@@ -1,0 +1,1 @@
+export const projectInfo = { slug:"neighborhood-tool-library", title:"Neighborhood Tool Library", summary:"A lending library for shared tools, reservations and condition photos.", scope:"tool-lending", locale:"en", direction:"ltr", firstTask:"Create an item listing and reservable loan lifecycle.", entity:"loans" } as const;
