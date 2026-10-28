@@ -7,3 +7,4 @@
 - Define export, deletion, retention, access logs and incident response before launch.
 - Domain guardrail: Define ownership, deposit, damage and identity rules before exchanges.
 - Review threat model, roles and offline-device recovery before launch.
+- Current local drafts live in browser IndexedDB without application-level encryption or access control. Do not enter personal data. They remain until deleted in the UI or the browser profile is cleared; browser backups and secure erasure are outside the current guarantee.
