@@ -18,4 +18,6 @@ The technical shell exists; the product workflow does not. Build the first safe,
 
 ## Status
 
-Not started. Use library/001-tool-lending. After acceptance passes, update progress and set the next task.
+In progress. The local listing and reservation-planning slice is implemented: records are validated, stored in Dexie, shown with their local status, and can be deleted. A planned reservation is only a private marker on this device. This task does not record a real borrower, owner, handover, return, deposit, damage or condition. Do not add real exchange stages until the ownership, deposit, damage and identity rules are defined and reviewed.
+
+TOOL-LENDING-002's validation, empty, error and deletion states are included in the same vertical slice. Next: TOOL-LENDING-003 PostgreSQL migrations and repository tests, still without real-person or exchange data.

@@ -5,7 +5,7 @@ Prioritize user risk and evidence over polish. Estimates are focused engineering
 ## P0 — safe foundation
 
 - [ ] TOOL-LENDING-001 — Create an item listing and reservable loan lifecycle.
-- [ ] TOOL-LENDING-002 — Validate loans and add empty/error/deletion states.
+- [x] TOOL-LENDING-002 — Validate local planning records and add empty/error/deletion states.
 - [ ] TOOL-LENDING-003 — Add PostgreSQL migrations and repository tests.
 - [ ] TOOL-LENDING-004 — Specify offline conflicts, retry, duplicate-submit and recovery.
 
